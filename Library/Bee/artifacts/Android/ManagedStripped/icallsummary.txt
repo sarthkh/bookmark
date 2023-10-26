@@ -276,12 +276,14 @@ UnityEngine.Canvas::get_scaleFactor
 UnityEngine.Canvas::SetExternalCanvasEnabled
 UnityEngine.Canvas::get_pixelRect_Injected
 UnityEngine.Canvas::get_renderingDisplaySize_Injected
+UnityEngine.Canvas::set_additionalShaderChannels
 UnityEngine.Canvas::set_overrideSorting
 UnityEngine.Canvas::set_referencePixelsPerUnit
 UnityEngine.Canvas::set_renderMode
 UnityEngine.Canvas::set_scaleFactor
 UnityEngine.Canvas::set_sortingLayerID
 UnityEngine.Canvas::set_sortingOrder
+UnityEngine.Canvas::get_additionalShaderChannels
 UnityEngine.Canvas::get_worldCamera
 UnityEngine.Canvas::get_rootCanvas
 UnityEngine.Canvas::GetDefaultCanvasMaterial
@@ -293,6 +295,7 @@ UnityEngine.CanvasGroup::get_interactable
 UnityEngine.CanvasGroup::get_alpha
 UnityEngine.CanvasGroup::set_alpha
 UnityEngine.CanvasRenderer::get_cull
+UnityEngine.CanvasRenderer::get_cullTransparentMesh
 UnityEngine.CanvasRenderer::get_hasMoved
 UnityEngine.CanvasRenderer::get_absoluteDepth
 UnityEngine.CanvasRenderer::get_materialCount
@@ -311,9 +314,11 @@ UnityEngine.CanvasRenderer::SplitIndicesStreamsInternal
 UnityEngine.CanvasRenderer::SplitUIVertexStreamsInternal
 UnityEngine.CanvasRenderer::set_clippingSoftness_Injected
 UnityEngine.CanvasRenderer::set_cull
+UnityEngine.CanvasRenderer::set_cullTransparentMesh
 UnityEngine.CanvasRenderer::set_hasPopInstruction
 UnityEngine.CanvasRenderer::set_materialCount
 UnityEngine.CanvasRenderer::set_popMaterialCount
+UnityEngine.CanvasRenderer::GetMaterial
 UnityEngine.Collider::get_bounds_Injected
 UnityEngine.Collider::set_enabled
 UnityEngine.Component::BroadcastMessage
@@ -436,6 +441,8 @@ UnityEngine.Gradient::get_alphaKeys
 UnityEngine.Gradient::get_colorKeys
 UnityEngine.Gradient::get_mode
 UnityEngine.Graphics::Internal_GetMaxDrawMeshInstanceCount
+UnityEngine.Graphics::CopyTexture_Full
+UnityEngine.Graphics::Internal_BlitMaterial5
 UnityEngine.Graphics::Internal_SetNullRT
 UnityEngine.Graphics::Internal_SetRTSimple_Injected
 UnityEngine.GUI::get_changed
@@ -596,6 +603,7 @@ UnityEngine.Material::IsKeywordEnabled
 UnityEngine.Material::SetPass
 UnityEngine.Material::ComputeCRC
 UnityEngine.Material::GetFirstPropertyNameIdByAttribute
+UnityEngine.Material::get_passCount
 UnityEngine.Material::GetFloatImpl
 UnityEngine.Material::GetTagImpl
 UnityEngine.Material::GetShaderKeywords
@@ -605,10 +613,13 @@ UnityEngine.Material::CreateWithShader
 UnityEngine.Material::CreateWithString
 UnityEngine.Material::DisableKeyword
 UnityEngine.Material::EnableKeyword
+UnityEngine.Material::GetColorImpl_Injected
+UnityEngine.Material::SetColorImpl_Injected
 UnityEngine.Material::SetFloatImpl
 UnityEngine.Material::SetMatrixImpl_Injected
 UnityEngine.Material::SetShaderKeywords
 UnityEngine.Material::SetTextureImpl
+UnityEngine.Material::set_renderQueue
 UnityEngine.Material::set_shader
 UnityEngine.Material::get_shader
 UnityEngine.Material::GetTextureImpl
@@ -635,6 +646,7 @@ UnityEngine.Mesh::GetIndicesImpl
 UnityEngine.Mesh::ClearImpl
 UnityEngine.Mesh::GetArrayFromChannelImpl
 UnityEngine.Mesh::Internal_Create
+UnityEngine.Mesh::MarkDynamicImpl
 UnityEngine.Mesh::PrintErrorCantAccessChannel
 UnityEngine.Mesh::RecalculateBoundsImpl
 UnityEngine.Mesh::RecalculateNormalsImpl
@@ -643,6 +655,8 @@ UnityEngine.Mesh::SetIndicesImpl
 UnityEngine.Mesh::SetIndicesNativeArrayImpl
 UnityEngine.Mesh::SetNativeArrayForChannelImpl
 UnityEngine.Mesh::UploadMeshDataImpl
+UnityEngine.Mesh::get_bounds_Injected
+UnityEngine.Mesh::set_bounds_Injected
 UnityEngine.MeshCollider::set_sharedMesh
 UnityEngine.MeshFilter::set_sharedMesh
 UnityEngine.MeshFilter::get_mesh
@@ -789,6 +803,11 @@ UnityEngine.Renderer::SetMaterial
 UnityEngine.Renderer::SetMaterialArray
 UnityEngine.Renderer::get_bounds_Injected
 UnityEngine.Renderer::set_enabled
+UnityEngine.Renderer::set_receiveShadows
+UnityEngine.Renderer::set_shadowCastingMode
+UnityEngine.Renderer::set_sortingLayerID
+UnityEngine.Renderer::set_sortingOrder
+UnityEngine.Renderer::GetMaterial
 UnityEngine.Renderer::GetSharedMaterial
 UnityEngine.Renderer::GetSharedMaterialArray
 UnityEngine.Rendering.CommandBuffer::ValidateAgainstExecutionFlags
@@ -890,7 +909,9 @@ UnityEngine.TextCore.LowLevel.FontEngine::TryGetGlyphWithUnicodeValue_Internal
 UnityEngine.TextCore.LowLevel.FontEngine::TryGetSystemFontReference_Internal
 UnityEngine.TextCore.LowLevel.FontEngine::GetFaceInfo_Internal
 UnityEngine.TextCore.LowLevel.FontEngine::GetPairAdjustmentRecordsFromMarshallingArray
+UnityEngine.TextCore.LowLevel.FontEngine::InitializeFontEngine_Internal
 UnityEngine.TextCore.LowLevel.FontEngine::LoadFontFace_With_Size_And_FaceIndex_Internal
+UnityEngine.TextCore.LowLevel.FontEngine::LoadFontFace_With_Size_FromFont_Internal
 UnityEngine.TextCore.LowLevel.FontEngine::LoadFontFace_With_Size_and_FaceIndex_FromFont_Internal
 UnityEngine.TextCore.LowLevel.FontEngine::LoadFontFace_With_Size_by_FamilyName_and_StyleName_Internal
 UnityEngine.TextCore.LowLevel.FontEngine::PopulatePairAdjustmentRecordMarshallingArray_from_KernTable
@@ -916,6 +937,7 @@ UnityEngine.Texture::set_wrapMode
 UnityEngine.Texture::get_filterMode
 UnityEngine.Texture::get_wrapMode
 UnityEngine.Texture2D::Internal_CreateImpl
+UnityEngine.Texture2D::LoadRawTextureDataImpl
 UnityEngine.Texture2D::ReinitializeImpl
 UnityEngine.Texture2D::ReinitializeWithTextureFormatImpl
 UnityEngine.Texture2D::get_isReadable
@@ -927,6 +949,7 @@ UnityEngine.Texture2D::ReadPixelsImpl_Injected
 UnityEngine.Texture2D::SetAllPixels32
 UnityEngine.Texture2D::SetPixelImpl_Injected
 UnityEngine.Texture2D::UpdateExternalTexture
+UnityEngine.Texture2D::GetPixels32
 UnityEngine.Texture2D::get_whiteTexture
 UnityEngine.Texture2D::get_format
 UnityEngine.Texture2DArray::Internal_CreateImpl
