@@ -325,6 +325,7 @@
 "Assets/Scripts/GetImageAlternative.cs"
 "Assets/Scripts/QRCodeRecenter.cs"
 "Assets/Scripts/SetNavigationTarget.cs"
+"Assets/Scripts/SetUIText.cs"
 "Assets/Scripts/Target.cs"
 -langversion:9.0
 

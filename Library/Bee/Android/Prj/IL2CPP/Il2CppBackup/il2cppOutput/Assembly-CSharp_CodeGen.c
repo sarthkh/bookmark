@@ -26,13 +26,16 @@ extern void SetNavigationTarget_Start_m0CFEEDEE4BC72DD7486B429949C561630DED0FB6 
 extern void SetNavigationTarget_Update_m24DD885D08F1EA5725F6B65E56B8706FBC72EF66 (void);
 extern void SetNavigationTarget_SetCurrentNavigationTarget_mCF7202CD55D545AB5824302F77079A6E010E0CF5 (void);
 extern void SetNavigationTarget_ToggleVisibility_mC7A0DE8BDD3E020F14A2E788B81724587C1E1459 (void);
+extern void SetNavigationTarget_AddLineOffset_m223C483B58A62F30F4A284F18FF877D04FABF668 (void);
 extern void SetNavigationTarget__ctor_m40AA3B1240C215E094DE629C3BFAD2C4859E6D18 (void);
-extern void U3CU3Ec__DisplayClass8_0__ctor_mF6D197FCACF0704C131B173EF52D75074E4F84D9 (void);
-extern void U3CU3Ec__DisplayClass8_0_U3CSetCurrentNavigationTargetU3Eb__0_m6280E0A4617B091DD9F597CA1139EA318D23AB7B (void);
+extern void U3CU3Ec__DisplayClass9_0__ctor_m9F1E5D7818C27A3F6ED404E6AF31C5CF20471846 (void);
+extern void U3CU3Ec__DisplayClass9_0_U3CSetCurrentNavigationTargetU3Eb__0_m3B34ADDD4983D13AAF1ECDAA5929E8E6038BB56F (void);
+extern void SetUIText_OnSliderValueChanged_m4049862211BCA4F705D3A47BF281F38E7B1D613D (void);
+extern void SetUIText__ctor_m7492B8C419134961A1886C4841538BEFB5C34736 (void);
 extern void Target__ctor_m5524C5EEF36FA6DB1E6B5BFA323B37E68635C216 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[20] = 
+static Il2CppMethodPointer s_methodPointers[23] = 
 {
 	GetImageAlternative_Update_mA046E7E3C6731086AA2AC43B2560BACD09C5F3CA,
 	GetImageAlternative__ctor_m6ADE9089C9D895A989EFAA5864A174DBDA2B5A21,
@@ -48,14 +51,17 @@ static Il2CppMethodPointer s_methodPointers[20] =
 	SetNavigationTarget_Update_m24DD885D08F1EA5725F6B65E56B8706FBC72EF66,
 	SetNavigationTarget_SetCurrentNavigationTarget_mCF7202CD55D545AB5824302F77079A6E010E0CF5,
 	SetNavigationTarget_ToggleVisibility_mC7A0DE8BDD3E020F14A2E788B81724587C1E1459,
+	SetNavigationTarget_AddLineOffset_m223C483B58A62F30F4A284F18FF877D04FABF668,
 	SetNavigationTarget__ctor_m40AA3B1240C215E094DE629C3BFAD2C4859E6D18,
-	U3CU3Ec__DisplayClass8_0__ctor_mF6D197FCACF0704C131B173EF52D75074E4F84D9,
-	U3CU3Ec__DisplayClass8_0_U3CSetCurrentNavigationTargetU3Eb__0_m6280E0A4617B091DD9F597CA1139EA318D23AB7B,
+	U3CU3Ec__DisplayClass9_0__ctor_m9F1E5D7818C27A3F6ED404E6AF31C5CF20471846,
+	U3CU3Ec__DisplayClass9_0_U3CSetCurrentNavigationTargetU3Eb__0_m3B34ADDD4983D13AAF1ECDAA5929E8E6038BB56F,
+	SetUIText_OnSliderValueChanged_m4049862211BCA4F705D3A47BF281F38E7B1D613D,
+	SetUIText__ctor_m7492B8C419134961A1886C4841538BEFB5C34736,
 	Target__ctor_m5524C5EEF36FA6DB1E6B5BFA323B37E68635C216,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[20] = 
+static const int32_t s_InvokerIndices[23] = 
 {
 	7399,
 	7399,
@@ -71,9 +77,12 @@ static const int32_t s_InvokerIndices[20] =
 	7399,
 	5837,
 	7399,
+	7284,
 	7399,
 	7399,
 	4157,
+	5911,
+	7399,
 	7399,
 	11101,
 	7399,
@@ -82,7 +91,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	20,
+	23,
 	s_methodPointers,
 	0,
 	NULL,

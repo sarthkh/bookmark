@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\GetImageAlternative.cs" />
     <Compile Include="Assets\Scripts\QRCodeRecenter.cs" />
+    <Compile Include="Assets\Scripts\SetUIText.cs" />
     <Compile Include="Assets\Scripts\SetNavigationTarget.cs" />
     <Compile Include="Assets\Scripts\Target.cs" />
   </ItemGroup>

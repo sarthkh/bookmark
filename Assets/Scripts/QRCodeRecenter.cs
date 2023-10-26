@@ -26,7 +26,7 @@ public class QRCodeRecenter : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            SetQrCodeRecenterTarget("Reception");
+            SetQrCodeRecenterTarget("Xerox Machine");
         }
     }
 
@@ -105,6 +105,7 @@ public class QRCodeRecenter : MonoBehaviour
     private void SetQrCodeRecenterTarget(string targetText)
     {
         Target currentTarget = navigationTargetObjects.Find(x => x.Name.ToLower().Equals(targetText.ToLower()));
+
         if (currentTarget != null)
         {
             // to reset position and rotation of ARSession

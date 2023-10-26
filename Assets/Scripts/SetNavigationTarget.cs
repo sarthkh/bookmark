@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UI;
 
 public class SetNavigationTarget : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class SetNavigationTarget : MonoBehaviour
     private TMP_Dropdown navigationTargetDropdown;
     [SerializeField]
     private List<Target> navigationTargetObjects = new List<Target>();
+    [SerializeField]
+    private Slider navigationYOffset;
 
     private NavMeshPath path; // current calculated path
     private LineRenderer line; // to display path
@@ -29,7 +32,8 @@ public class SetNavigationTarget : MonoBehaviour
         {
             NavMesh.CalculatePath(transform.position, targetPosition, NavMesh.AllAreas, path);
             line.positionCount = path.corners.Length;
-            line.SetPositions(path.corners);
+            Vector3[] calculatedPathAndOffset = AddLineOffset();
+            line.SetPositions(calculatedPathAndOffset);
         }
     }
 
@@ -37,8 +41,8 @@ public class SetNavigationTarget : MonoBehaviour
     {
         targetPosition = Vector3.zero;
         string selectedText = navigationTargetDropdown.options[selectedValue].text;
+        Target currentTarget = navigationTargetObjects.Find(x => x.Name.ToLower().Equals(selectedText.ToLower()));
 
-        Target currentTarget = navigationTargetObjects.Find(x => x.Name.Equals(selectedText));
         if (currentTarget != null)
         {
             targetPosition = currentTarget.PositionObject.transform.position;
@@ -49,5 +53,21 @@ public class SetNavigationTarget : MonoBehaviour
     {
         lineToggle = !lineToggle;
         line.enabled = lineToggle;
+    }
+
+    private Vector3[] AddLineOffset()
+    {
+        if (navigationYOffset.value == 0)
+        {
+            return path.corners;
+        }
+
+        Vector3[] calculatedLine = new Vector3[path.corners.Length];
+
+        for (int i = 0; i < path.corners.Length; i++)
+        {
+            calculatedLine[i] = path.corners[i] + new Vector3(0, navigationYOffset.value, 0);
+        }
+        return calculatedLine;
     }
 }
