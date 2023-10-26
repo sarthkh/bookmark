@@ -152,55 +152,55 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16688}
+      Script: {instanceID: 16716}
     - Class: 114
-      Script: {instanceID: 16802}
+      Script: {instanceID: 16830}
     - Class: 114
-      Script: {instanceID: 17474}
+      Script: {instanceID: 17502}
     - Class: 114
-      Script: {instanceID: 17640}
+      Script: {instanceID: 17668}
     - Class: 114
-      Script: {instanceID: 18056}
+      Script: {instanceID: 18084}
     - Class: 114
-      Script: {instanceID: 18066}
+      Script: {instanceID: 18094}
     - Class: 114
-      Script: {instanceID: 18324}
+      Script: {instanceID: 18354}
     - Class: 114
-      Script: {instanceID: 18700}
+      Script: {instanceID: 18730}
     - Class: 114
-      Script: {instanceID: 18940}
+      Script: {instanceID: 18970}
     - Class: 114
-      Script: {instanceID: 19538}
+      Script: {instanceID: 19568}
     - Class: 114
-      Script: {instanceID: 19652}
+      Script: {instanceID: 19682}
     - Class: 114
-      Script: {instanceID: 19760}
+      Script: {instanceID: 19790}
     - Class: 114
-      Script: {instanceID: 20096}
+      Script: {instanceID: 19972}
     - Class: 114
-      Script: {instanceID: 20450}
+      Script: {instanceID: 20128}
     - Class: 114
-      Script: {instanceID: 21230}
+      Script: {instanceID: 20482}
     - Class: 114
-      Script: {instanceID: 21416}
+      Script: {instanceID: 21262}
     - Class: 114
-      Script: {instanceID: 22196}
+      Script: {instanceID: 21448}
     - Class: 114
-      Script: {instanceID: 22230}
+      Script: {instanceID: 22228}
     - Class: 114
-      Script: {instanceID: 22402}
+      Script: {instanceID: 22262}
     - Class: 114
-      Script: {instanceID: 22650}
+      Script: {instanceID: 22434}
     - Class: 114
-      Script: {instanceID: 22852}
+      Script: {instanceID: 22682}
     - Class: 114
-      Script: {instanceID: 22866}
+      Script: {instanceID: 22884}
     - Class: 114
-      Script: {instanceID: 24332}
+      Script: {instanceID: 22898}
     - Class: 114
-      Script: {instanceID: 24644}
+      Script: {instanceID: 24366}
     - Class: 114
-      Script: {instanceID: 44758}
+      Script: {instanceID: 24678}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -790,6 +790,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.UI
     className: TrackedDeviceRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 8404eae72cc4d9c81b86465c8369f22d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: QRCodeRecenter
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1476,6 +1482,12 @@ ScriptsOnlyBuild:
     className: AnimationCurveDatum
   - hash:
       serializedVersion: 2
+      Hash: 90515215f93874ef6d295f68b9a221a7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GetImageAlternative
+  - hash:
+      serializedVersion: 2
       Hash: dff7e8985c1dc7dc970dbbec1c263518
     assemblyName: Unity.XR.ARFoundation
     namespaceName: UnityEngine.XR.ARFoundation
@@ -1642,18 +1654,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 8404eae72cc4d9c81b86465c8369f22d
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: QRCodeRecenter
-  - hash:
-      serializedVersion: 2
-      Hash: 90515215f93874ef6d295f68b9a221a7
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: GetImageAlternative
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
