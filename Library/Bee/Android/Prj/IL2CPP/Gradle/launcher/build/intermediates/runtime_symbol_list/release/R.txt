@@ -6,8 +6,6 @@ int id unitySurfaceView 0x7f020003
 int layout __arcore_education 0x7f030000
 int mipmap app_icon 0x7f040000
 int mipmap app_icon_round 0x7f040001
-int mipmap ic_launcher_background 0x7f040002
-int mipmap ic_launcher_foreground 0x7f040003
 int raw keep_arcore 0x7f050000
 int string FreeformWindowOrientation_landscape 0x7f060000
 int string FreeformWindowOrientation_portrait 0x7f060001

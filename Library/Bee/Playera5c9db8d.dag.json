@@ -1074,7 +1074,14 @@
         1066,
         1067,
         1068,
-        1069
+        1069,
+        1070,
+        1071,
+        1072,
+        1073,
+        1074,
+        1075,
+        1076
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -23848,7 +23855,7 @@
       "DisplayName": "Writing build.gradle_h6pf.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 264591,
-      "PayloadLength": 5508,
+      "PayloadLength": 5501,
       "PayloadDebugContentSnippet": "{\"AndroidPlayerBuildProgram.Ac",
       "Inputs": [],
       "Outputs": [
@@ -23985,7 +23992,7 @@
       "Annotation": "WriteText C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/colors.xml",
       "DisplayName": "Writing colors.xml",
       "ActionType": "WriteFile",
-      "PayloadOffset": 270264,
+      "PayloadOffset": 270257,
       "PayloadLength": 132,
       "PayloadDebugContentSnippet": "<?xml version=\"1.0\" encoding=\"",
       "Inputs": [],
@@ -23998,8 +24005,8 @@
       "Annotation": "WriteText C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml",
       "DisplayName": "Writing strings.xml",
       "ActionType": "WriteFile",
-      "PayloadOffset": 270558,
-      "PayloadLength": 183,
+      "PayloadOffset": 270551,
+      "PayloadLength": 177,
       "PayloadDebugContentSnippet": "<?xml version=\"1.0\" encoding=\"",
       "Inputs": [],
       "Outputs": [
@@ -24032,64 +24039,148 @@
       "DebugActionIndex": 1043
     },
     {
-      "Annotation": "CopyFiles C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml",
-      "DisplayName": "Copying app_icon.xml",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/Apk/res/mipmap-anydpi-v26/app_icon.xml"
-      ],
-      "Outputs": [
-        "C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml"
-      ],
-      "DebugActionIndex": 1044
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml",
-      "DisplayName": "Copying app_icon_round.xml",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/Apk/res/mipmap-anydpi-v26/app_icon_round.xml"
-      ],
-      "Outputs": [
-        "C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml"
-      ],
-      "DebugActionIndex": 1045
-    },
-    {
       "Annotation": "CopyFiles C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png",
       "DisplayName": "Copying app_icon.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/Apk/res/mipmap-mdpi/app_icon.png"
+        "Temp/StagingArea/res.mdpi.app_icon.png"
       ],
       "Outputs": [
         "C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png"
       ],
+      "DebugActionIndex": 1044
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-ldpi/app_icon.png",
+      "DisplayName": "Copying app_icon.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.ldpi.app_icon.png"
+      ],
+      "Outputs": [
+        "C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-ldpi/app_icon.png"
+      ],
+      "DebugActionIndex": 1045
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-hdpi/app_icon.png",
+      "DisplayName": "Copying app_icon.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.hdpi.app_icon.png"
+      ],
+      "Outputs": [
+        "C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-hdpi/app_icon.png"
+      ],
       "DebugActionIndex": 1046
     },
     {
-      "Annotation": "CopyFiles C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png",
-      "DisplayName": "Copying ic_launcher_background.png",
+      "Annotation": "CopyFiles C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xhdpi/app_icon.png",
+      "DisplayName": "Copying app_icon.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/Apk/res/mipmap-mdpi/ic_launcher_background.png"
+        "Temp/StagingArea/res.xhdpi.app_icon.png"
       ],
       "Outputs": [
-        "C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png"
+        "C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xhdpi/app_icon.png"
       ],
       "DebugActionIndex": 1047
     },
     {
-      "Annotation": "CopyFiles C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png",
-      "DisplayName": "Copying ic_launcher_foreground.png",
+      "Annotation": "CopyFiles C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxhdpi/app_icon.png",
+      "DisplayName": "Copying app_icon.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/Apk/res/mipmap-mdpi/ic_launcher_foreground.png"
+        "Temp/StagingArea/res.xxhdpi.app_icon.png"
       ],
       "Outputs": [
-        "C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+        "C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxhdpi/app_icon.png"
       ],
       "DebugActionIndex": 1048
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxxhdpi/app_icon.png",
+      "DisplayName": "Copying app_icon.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.xxxhdpi.app_icon.png"
+      ],
+      "Outputs": [
+        "C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxxhdpi/app_icon.png"
+      ],
+      "DebugActionIndex": 1049
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-ldpi/app_icon_round.png",
+      "DisplayName": "Copying app_icon_round.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.ldpi.app_icon_round.png"
+      ],
+      "Outputs": [
+        "C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-ldpi/app_icon_round.png"
+      ],
+      "DebugActionIndex": 1050
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon_round.png",
+      "DisplayName": "Copying app_icon_round.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.mdpi.app_icon_round.png"
+      ],
+      "Outputs": [
+        "C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon_round.png"
+      ],
+      "DebugActionIndex": 1051
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-hdpi/app_icon_round.png",
+      "DisplayName": "Copying app_icon_round.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.hdpi.app_icon_round.png"
+      ],
+      "Outputs": [
+        "C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-hdpi/app_icon_round.png"
+      ],
+      "DebugActionIndex": 1052
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xhdpi/app_icon_round.png",
+      "DisplayName": "Copying app_icon_round.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.xhdpi.app_icon_round.png"
+      ],
+      "Outputs": [
+        "C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xhdpi/app_icon_round.png"
+      ],
+      "DebugActionIndex": 1053
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxhdpi/app_icon_round.png",
+      "DisplayName": "Copying app_icon_round.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.xxhdpi.app_icon_round.png"
+      ],
+      "Outputs": [
+        "C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxhdpi/app_icon_round.png"
+      ],
+      "DebugActionIndex": 1054
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxxhdpi/app_icon_round.png",
+      "DisplayName": "Copying app_icon_round.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.xxxhdpi.app_icon_round.png"
+      ],
+      "Outputs": [
+        "C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxxhdpi/app_icon_round.png"
+      ],
+      "DebugActionIndex": 1055
     },
     {
       "Annotation": "CopyFiles C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libmain.so",
@@ -24101,7 +24192,7 @@
       "Outputs": [
         "C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libmain.so"
       ],
-      "DebugActionIndex": 1049
+      "DebugActionIndex": 1056
     },
     {
       "Annotation": "SourceBuildPlayerFiles",
@@ -24109,24 +24200,24 @@
       "Inputs": [],
       "Outputs": [],
       "ToBuildDependencies": [
-        1049,
-        1062
+        1056,
+        1069
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 1050
+      "DebugActionIndex": 1057
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info",
       "DisplayName": "Writing LauncherManifestDiag.txt_zvqu.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 270843,
-      "PayloadLength": 11723,
+      "PayloadOffset": 270830,
+      "PayloadLength": 11716,
       "PayloadDebugContentSnippet": "{\"AndroidPlayerBuildProgram.Ac",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info"
       ],
-      "DebugActionIndex": 1051
+      "DebugActionIndex": 1058
     },
     {
       "Annotation": "Generate Manifests Library/Bee/artifacts/Android/Manifest/LauncherManifestDiag.txt (+3 others)",
@@ -24252,25 +24343,25 @@
         110,
         112,
         114,
-        1051
+        1058
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1052
+      "DebugActionIndex": 1059
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityClassRegistration.cpp_7y8p.info",
       "DisplayName": "Writing UnityClassRegistration.cpp_7y8p.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 282670,
+      "PayloadOffset": 282650,
       "PayloadLength": 1332,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Cl",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityClassRegistration.cpp_7y8p.info"
       ],
-      "DebugActionIndex": 1053
+      "DebugActionIndex": 1060
     },
     {
       "Annotation": "ClassRegistrationGenerator C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/artifacts/Android/il2cppOutput/UnityClassRegistration.cpp",
@@ -24321,12 +24412,12 @@
       ],
       "ToBuildDependencies": [
         14,
-        1053
+        1060
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1054
+      "DebugActionIndex": 1061
     },
     {
       "Annotation": "Compile UnityClassRegistration Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityClassRegistration.o",
@@ -24341,11 +24432,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityClassRegistration.o"
       ],
       "ToBuildDependencies": [
-        1054
+        1061
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1055
+      "DebugActionIndex": 1062
     },
     {
       "Annotation": "ICallRegistrationGenerator C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/artifacts/Android/il2cppOutput/UnityICallRegistration.cpp",
@@ -24388,7 +24479,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1056
+      "DebugActionIndex": 1063
     },
     {
       "Annotation": "Compile UnityICallRegistration Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityICallRegistration.o",
@@ -24403,11 +24494,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityICallRegistration.o"
       ],
       "ToBuildDependencies": [
-        1056
+        1063
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1057
+      "DebugActionIndex": 1064
     },
     {
       "Annotation": "Link libunity Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so",
@@ -24425,12 +24516,12 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so"
       ],
       "ToBuildDependencies": [
-        1055,
-        1057
+        1062,
+        1064
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1058
+      "DebugActionIndex": 1065
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so from Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so",
@@ -24444,11 +24535,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so"
       ],
       "ToBuildDependencies": [
-        1058
+        1065
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1059
+      "DebugActionIndex": 1066
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so from Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so",
@@ -24462,11 +24553,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so"
       ],
       "ToBuildDependencies": [
-        1059
+        1066
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1060
+      "DebugActionIndex": 1067
     },
     {
       "Annotation": "Stripping Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so -> Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so",
@@ -24480,11 +24571,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so"
       ],
       "ToBuildDependencies": [
-        1058
+        1065
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1061
+      "DebugActionIndex": 1068
     },
     {
       "Annotation": "Adding note Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so -> C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so",
@@ -24500,12 +24591,12 @@
         "C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so"
       ],
       "ToBuildDependencies": [
-        1060,
-        1061
+        1067,
+        1068
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1062
+      "DebugActionIndex": 1069
     },
     {
       "Annotation": "CopyFiles C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libmain.so",
@@ -24517,7 +24608,7 @@
       "Outputs": [
         "C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libmain.so"
       ],
-      "DebugActionIndex": 1063
+      "DebugActionIndex": 1070
     },
     {
       "Annotation": "CopyFiles C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libil2cpp.so",
@@ -24532,7 +24623,7 @@
       "ToBuildDependencies": [
         618
       ],
-      "DebugActionIndex": 1064
+      "DebugActionIndex": 1071
     },
     {
       "Annotation": "CopyFiles C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libunity.so",
@@ -24545,22 +24636,22 @@
         "C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libunity.so"
       ],
       "ToBuildDependencies": [
-        1060
+        1067
       ],
-      "DebugActionIndex": 1065
+      "DebugActionIndex": 1072
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/unity_app_guid_illq.info",
       "DisplayName": "Writing unity_app_guid_illq.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 284094,
+      "PayloadOffset": 284074,
       "PayloadLength": 1201,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/unity_app_guid_illq.info"
       ],
-      "DebugActionIndex": 1066
+      "DebugActionIndex": 1073
     },
     {
       "Annotation": "GuidGenerator C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid",
@@ -24591,25 +24682,25 @@
       "ToBuildDependencies": [
         5,
         115,
-        1066
+        1073
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1067
+      "DebugActionIndex": 1074
     },
     {
       "Annotation": "WriteText C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint",
       "DisplayName": "Writing com.android.games.engine.build_fingerprint",
       "ActionType": "WriteFile",
-      "PayloadOffset": 285500,
+      "PayloadOffset": 285480,
       "PayloadLength": 68,
       "PayloadDebugContentSnippet": "2022.3.11f1;IL2CPP;Release;Str",
       "Inputs": [],
       "Outputs": [
         "C:/Users/sarth/Downloads/library_ar-navigation-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint"
       ],
-      "DebugActionIndex": 1068
+      "DebugActionIndex": 1075
     },
     {
       "Annotation": "Player",
@@ -25103,13 +25194,20 @@
         1047,
         1048,
         1049,
+        1050,
+        1051,
         1052,
-        1062,
-        1067,
-        1068
+        1053,
+        1054,
+        1055,
+        1056,
+        1059,
+        1069,
+        1074,
+        1075
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 1069
+      "DebugActionIndex": 1076
     }
   ],
   "FileSignatures": [
@@ -25659,8 +25757,8 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "SourceBuildPlayerFiles": 1050,
-          "Player": 1069
+          "SourceBuildPlayerFiles": 1057,
+          "Player": 1076
         }
 ,  "DefaultNodes": [
     0

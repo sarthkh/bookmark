@@ -53,7 +53,7 @@
             }
         },
         {
-            "Name": "Shelf1",
+            "Name": "Shelf 1",
             "Position": {
                 "x": -4.15,
                 "y": 0.00,
@@ -66,7 +66,7 @@
             }
         },
         {
-            "Name": "Shelf23",
+            "Name": "Shelf 2,3",
             "Position": {
                 "x": -5.62 ,
                 "y": 0.00 ,
@@ -79,7 +79,7 @@
             }
         },
         {
-            "Name": "shelf4",
+            "Name": "Shelf 4",
             "Position": {
                 "x": -6.98,
                 "y": 0.00,
@@ -92,7 +92,7 @@
             }
         },
         {
-            "Name": "shelf5",
+            "Name": "Shelf 5",
             "Position": {
                 "x": -7.33,
                 "y": 0.00,
@@ -105,7 +105,7 @@
             }
         },
         {
-            "Name": "shelf 6,7",
+            "Name": "Shelf 6,7",
             "Position": {
                 "x": -8.72,
                 "y": 0.00,
@@ -118,7 +118,7 @@
             }
         },
         {
-            "Name": "shelf 8,9",
+            "Name": "Shelf 8,9",
             "Position": {
                 "x": -9.14,
                 "y": 0.00,
@@ -131,7 +131,7 @@
             }
         },
         {
-            "Name": "shelf 10, 11",
+            "Name": "Shelf 10, 11",
             "Position": {
                 "x": -10.54,
                 "y": 0.00,
@@ -144,11 +144,24 @@
             }
         },
         {
-            "Name": "phd_thesis",
+            "Name": "Resource Shelf 1",
+            "Position": {
+                "x": -4,
+                "y": 0.00,
+                "z": 7.62
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "Name": "Resource Shelf 2,3",
             "Position": {
                 "x": -5.67,
                 "y": 0.00,
-                "z": 7.62
+                "z": 6.51
             },
             "Rotation": {
                 "x": 0.0,
@@ -157,9 +170,9 @@
             }
         },
         {
-            "Name": "resource shelf 2,3",
+            "Name": "Resource Shelf 4,5",
             "Position": {
-                "x": -5.67,
+                "x": -7.22,
                 "y": 0.00,
                 "z": 7.62
             },
@@ -170,9 +183,9 @@
             }
         },
         {
-            "Name": "resource shelf 4,5",
+            "Name": "Resource Shelf 6,7",
             "Position": {
-                "x": -5.67,
+                "x": -8.94,
                 "y": 0.00,
                 "z": 7.62
             },
@@ -183,9 +196,9 @@
             }
         },
         {
-            "Name": "resource shelf 6,7",
+            "Name": "Resource Shelf 8,9",
             "Position": {
-                "x": -7.34,
+                "x": -10.62,
                 "y": 0.00,
                 "z": 7.62
             },
@@ -196,33 +209,7 @@
             }
         },
         {
-            "Name": "resource shelf 8,9",
-            "Position": {
-                "x": -8.87,
-                "y": 0.00,
-                "z": 7.62
-            },
-            "Rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-            }
-        },
-        {
-            "Name": "ourlocation",
-            "Position": {
-                "x": 19.3,
-                "y": 0.00,
-                "z": 8.5
-            },
-            "Rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-            }
-        },
-        {
-            "Name": "computer area 1",
+            "Name": "Computer Area 1",
             "Position": {
                 "x": 3.6,
                 "y": 0.00,
@@ -235,7 +222,7 @@
             }
         },
         {
-            "Name": "computer area 2",
+            "Name": "Computer Area 2",
             "Position": {
                 "x": 21.06,
                 "y": 0.00,
@@ -248,11 +235,11 @@
             }
         },
         {
-            "Name": "C.V Raman",
+            "Name": "Reading Table Area 1",
             "Position": {
-                "x": 27.31,
+                "x": 14.48,
                 "y": 0.00,
-                "z": -0.17
+                "z": 4.25
             },
             "Rotation": {
                 "x": 0.0,
@@ -261,11 +248,37 @@
             }
         },
         {
-            "Name": "Kalpana Chavla",
+            "Name": "Reading Table Area 2",
             "Position": {
-                "x": 30.29,
+                "x": 31.7,
                 "y": 0.00,
-                "z": -0.17
+                "z": 6.5
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "Name": "C.V Raman",
+            "Position": {
+                "x": 25.3,
+                "y": 0.00,
+                "z": 1.35
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "Name": "Kalpana Chawla",
+            "Position": {
+                "x": 28,
+                "y": 0.00,
+                "z": 1.35
             },
             "Rotation": {
                 "x": 0.0,
@@ -276,9 +289,9 @@
         {
             "Name": "Vikram Sarabhai",
             "Position": {
-                "x": 33.21,
+                "x": 31,
                 "y": 0.00,
-                "z": -0.17
+                "z": 1.35
             },
             "Rotation": {
                 "x": 0.0,
@@ -289,9 +302,9 @@
         {
             "Name": "Aryabhatta (Teachers only)",
             "Position": {
-                "x": 36.19,
+                "x": 33.7,
                 "y": 0.00,
-                "z": -0.17
+                "z": 1.35
             },
             "Rotation": {
                 "x": 0.0,

@@ -14,7 +14,7 @@ INJECTED from C:\Users\sarth\Downloads\library_ar-navigation-main\Library\Bee\An
 INJECTED from C:\Users\sarth\Downloads\library_ar-navigation-main\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 INJECTED from C:\Users\sarth\Downloads\library_ar-navigation-main\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 	package
-		ADDED from C:\Users\sarth\Downloads\library_ar-navigation-main\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:70-112
+		ADDED from C:\Users\sarth\Downloads\library_ar-navigation-main\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:70-105
 		INJECTED from C:\Users\sarth\Downloads\library_ar-navigation-main\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\sarth\Downloads\library_ar-navigation-main\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
 	android:versionName
@@ -22,7 +22,7 @@ INJECTED from C:\Users\sarth\Downloads\library_ar-navigation-main\Library\Bee\An
 		ADDED from C:\Users\sarth\Downloads\library_ar-navigation-main\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 		INJECTED from C:\Users\sarth\Downloads\library_ar-navigation-main\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\sarth\Downloads\library_ar-navigation-main\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:113-159
+		ADDED from C:\Users\sarth\Downloads\library_ar-navigation-main\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:106-152
 	android:versionCode
 		INJECTED from C:\Users\sarth\Downloads\library_ar-navigation-main\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
 		ADDED from C:\Users\sarth\Downloads\library_ar-navigation-main\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
@@ -30,7 +30,7 @@ INJECTED from C:\Users\sarth\Downloads\library_ar-navigation-main\Library\Bee\An
 	xmlns:android
 		ADDED from C:\Users\sarth\Downloads\library_ar-navigation-main\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:11-69
 	android:installLocation
-		ADDED from C:\Users\sarth\Downloads\library_ar-navigation-main\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:160-200
+		ADDED from C:\Users\sarth\Downloads\library_ar-navigation-main\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:153-193
 application
 ADDED from C:\Users\sarth\Downloads\library_ar-navigation-main\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
 MERGED from [:unityLibrary] C:\Users\sarth\Downloads\library_ar-navigation-main\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:32:5-81:19
