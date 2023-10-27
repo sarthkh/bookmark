@@ -62,11 +62,15 @@
     <Compile Include="Assets\Scripts\Utilities\GetImageAlternative.cs" />
     <Compile Include="Assets\Scripts\Core\TargetHandler.cs" />
     <Compile Include="Assets\Scripts\Core\QRCodeRecenter.cs" />
+    <Compile Include="Assets\Scripts\Utilities\Path Visualization\PathLineVisualization.cs" />
     <Compile Include="Assets\Scripts\Utilities\SetUIText.cs" />
     <Compile Include="Assets\Scripts\Models\Target.cs" />
+    <Compile Include="Assets\Scripts\Utilities\KeepScreenAlive.cs" />
+    <Compile Include="Assets\Scripts\Utilities\Path Visualization\PathArrowVisualization.cs" />
     <Compile Include="Assets\Scripts\Models\TargetWrapper.cs" />
     <Compile Include="Assets\Scripts\Core\NavigationController.cs" />
     <Compile Include="Assets\Scripts\Models\TargetFacade.cs" />
+    <Compile Include="Assets\Scripts\Utilities\Path Visualization\SwitchPathVisualization.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

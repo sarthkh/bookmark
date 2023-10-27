@@ -392,6 +392,10 @@
 "Assets/Scripts/Models/TargetFacade.cs"
 "Assets/Scripts/Models/TargetWrapper.cs"
 "Assets/Scripts/Utilities/GetImageAlternative.cs"
+"Assets/Scripts/Utilities/KeepScreenAlive.cs"
+"Assets/Scripts/Utilities/Path Visualization/PathArrowVisualization.cs"
+"Assets/Scripts/Utilities/Path Visualization/PathLineVisualization.cs"
+"Assets/Scripts/Utilities/Path Visualization/SwitchPathVisualization.cs"
 "Assets/Scripts/Utilities/SetUIText.cs"
 -langversion:9.0
 
