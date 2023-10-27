@@ -5,5 +5,6 @@ using UnityEngine;
 public class Target
 {
     public string Name;
-    public GameObject PositionObject;
+    public Vector3 Position;
+    public Vector3 Rotation;
 }

@@ -1,0 +1,43 @@
+{
+    "TargetList": [
+        {
+            "Name": "Reception",
+            "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 6.9
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "Name": "Head Librarian Office",
+            "Position": {
+                "x": 5.35,
+                "y": 0.00,
+                "z": 7.50
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "Name": "Xerox Machine",
+            "Position": {
+                "x": -3.45,
+                "y": 0.00,
+                "z": 9.85
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        }
+    ]
+}
