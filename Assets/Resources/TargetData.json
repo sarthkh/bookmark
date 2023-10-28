@@ -16,9 +16,9 @@
         {
             "Name": "Head Librarian Office",
             "Position": {
-                "x": 5.47,
+                "x": 5.00,
                 "y": 0.00,
-                "z": 6.11
+                "z": 6.9
             },
             "Rotation": {
                 "x": 0.0,
@@ -57,7 +57,7 @@
             "Position": {
                 "x": -4.15,
                 "y": 0.00,
-                "z": 2.68
+                "z": 3.75
             },
             "Rotation": {
                 "x": 0.0,
@@ -68,9 +68,9 @@
         {
             "Name": "Shelf 2,3",
             "Position": {
-                "x": -5.62 ,
+                "x": -5.3 ,
                 "y": 0.00 ,
-                "z": 2.68
+                "z": 3.75
             },
             "Rotation": {
                 "x": 0.0,
@@ -79,24 +79,11 @@
             }
         },
         {
-            "Name": "Shelf 4",
+            "Name": "Shelf 4,5",
             "Position": {
-                "x": -6.98,
+                "x": -6.90,
                 "y": 0.00,
-                "z": 2.68
-            },
-            "Rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-            }
-        },
-        {
-            "Name": "Shelf 5",
-            "Position": {
-                "x": -7.33,
-                "y": 0.00,
-                "z": 2.68
+                "z": 3.75
             },
             "Rotation": {
                 "x": 0.0,
@@ -107,9 +94,9 @@
         {
             "Name": "Shelf 6,7",
             "Position": {
-                "x": -8.72,
+                "x": -7.5,
                 "y": 0.00,
-                "z": 2.68
+                "z": 3.75
             },
             "Rotation": {
                 "x": 0.0,
@@ -120,9 +107,9 @@
         {
             "Name": "Shelf 8,9",
             "Position": {
-                "x": -9.14,
+                "x": -8.96,
                 "y": 0.00,
-                "z": 2.68
+                "z": 3.75
             },
             "Rotation": {
                 "x": 0.0,
@@ -133,9 +120,35 @@
         {
             "Name": "Shelf 10, 11",
             "Position": {
-                "x": -10.54,
+                "x": -10.62,
                 "y": 0.00,
-                "z": 2.68
+                "z": 3.75
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "Name": "Shelf 12, 13",
+            "Position": {
+                "x": -12.35,
+                "y": 0.00,
+                "z": 3.75
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "Name": "Locker (Left)",
+            "Position": {
+                "x": -15.50,
+                "y": 0.00,
+                "z": 3.50
             },
             "Rotation": {
                 "x": 0.0,
@@ -146,9 +159,9 @@
         {
             "Name": "Resource Shelf 1",
             "Position": {
-                "x": -4,
+                "x": -4.25,
                 "y": 0.00,
-                "z": 7.62
+                "z": 7.25
             },
             "Rotation": {
                 "x": 0.0,
@@ -159,9 +172,9 @@
         {
             "Name": "Resource Shelf 2,3",
             "Position": {
-                "x": -5.67,
+                "x": -5.65,
                 "y": 0.00,
-                "z": 6.51
+                "z": 7.25
             },
             "Rotation": {
                 "x": 0.0,
@@ -172,9 +185,9 @@
         {
             "Name": "Resource Shelf 4,5",
             "Position": {
-                "x": -7.22,
+                "x": -6.9,
                 "y": 0.00,
-                "z": 7.62
+                "z": 7.25
             },
             "Rotation": {
                 "x": 0.0,
@@ -185,9 +198,9 @@
         {
             "Name": "Resource Shelf 6,7",
             "Position": {
-                "x": -8.94,
+                "x": -8,
                 "y": 0.00,
-                "z": 7.62
+                "z": 7.25
             },
             "Rotation": {
                 "x": 0.0,
@@ -198,9 +211,48 @@
         {
             "Name": "Resource Shelf 8,9",
             "Position": {
-                "x": -10.62,
+                "x": -9.9,
                 "y": 0.00,
-                "z": 7.62
+                "z": 7.25
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "Name": "Resource Shelf 10,11",
+            "Position": {
+                "x": -11.1,
+                "y": 0.00,
+                "z": 7.25
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "Name": "Resource Shelf 12,13",
+            "Position": {
+                "x": -13,
+                "y": 0.00,
+                "z": 7.25
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "Name": "Locker (Right)",
+            "Position": {
+                "x": -15.85,
+                "y": 0.00,
+                "z": 7.25
             },
             "Rotation": {
                 "x": 0.0,
@@ -211,9 +263,9 @@
         {
             "Name": "Computer Area 1",
             "Position": {
-                "x": 3.6,
+                "x": 2.80,
                 "y": 0.00,
-                "z": 1.63
+                "z": 1.50
             },
             "Rotation": {
                 "x": 0.0,
@@ -224,9 +276,9 @@
         {
             "Name": "Computer Area 2",
             "Position": {
-                "x": 21.06,
+                "x": 21.00,
                 "y": 0.00,
-                "z": 6.5
+                "z": 6.50
             },
             "Rotation": {
                 "x": 0.0,
@@ -237,7 +289,7 @@
         {
             "Name": "Reading Table Area 1",
             "Position": {
-                "x": 14.48,
+                "x": 14.50,
                 "y": 0.00,
                 "z": 4.25
             },
@@ -250,9 +302,9 @@
         {
             "Name": "Reading Table Area 2",
             "Position": {
-                "x": 31.7,
+                "x": 31.50,
                 "y": 0.00,
-                "z": 6.5
+                "z": 6.50
             },
             "Rotation": {
                 "x": 0.0,
@@ -263,9 +315,9 @@
         {
             "Name": "C.V Raman",
             "Position": {
-                "x": 25.3,
+                "x": 24.00,
                 "y": 0.00,
-                "z": 1.35
+                "z": 1.25
             },
             "Rotation": {
                 "x": 0.0,
@@ -276,9 +328,9 @@
         {
             "Name": "Kalpana Chawla",
             "Position": {
-                "x": 28,
+                "x": 27.00,
                 "y": 0.00,
-                "z": 1.35
+                "z": 1.25
             },
             "Rotation": {
                 "x": 0.0,
@@ -289,9 +341,9 @@
         {
             "Name": "Vikram Sarabhai",
             "Position": {
-                "x": 31,
+                "x": 30.00,
                 "y": 0.00,
-                "z": 1.35
+                "z": 1.25
             },
             "Rotation": {
                 "x": 0.0,
@@ -302,9 +354,9 @@
         {
             "Name": "Aryabhatta (Teachers only)",
             "Position": {
-                "x": 33.7,
+                "x": 33.00,
                 "y": 0.00,
-                "z": 1.35
+                "z": 1.25
             },
             "Rotation": {
                 "x": 0.0,

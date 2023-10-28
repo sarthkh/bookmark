@@ -1,9 +1,9 @@
 <libraries>
   <library
-      name="C:\Users\sarth\Downloads\library_ar-navigation-main\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
-      jars="C:\Users\sarth\Downloads\library_ar-navigation-main\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\e967740aa789a80d9b9296ae9981b582\transformed\out\jars\classes.jar;C:\Users\sarth\Downloads\library_ar-navigation-main\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\e967740aa789a80d9b9296ae9981b582\transformed\out\jars\libs\unity-classes.jar"
+      name="C:\Users\sarth\Documents\GitHub\library_ar-navigation\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+      jars="C:\Users\sarth\Documents\GitHub\library_ar-navigation\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\e9941d606c9b3229b50c49215c0c1320\transformed\out\jars\classes.jar;C:\Users\sarth\Documents\GitHub\library_ar-navigation\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\e9941d606c9b3229b50c49215c0c1320\transformed\out\jars\libs\unity-classes.jar"
       resolved="Gradle:unityLibrary:unspecified"
-      folder="C:\Users\sarth\Downloads\library_ar-navigation-main\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\e967740aa789a80d9b9296ae9981b582\transformed\out"
+      folder="C:\Users\sarth\Documents\GitHub\library_ar-navigation\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\e9941d606c9b3229b50c49215c0c1320\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -13,9 +13,9 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="__local_aars__:C:\Users\sarth\Downloads\library_ar-navigation-main\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"
-      jars="C:\Users\sarth\Downloads\library_ar-navigation-main\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar"
-      resolved="__local_aars__:C:\Users\sarth\Downloads\library_ar-navigation-main\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified"/>
+      name="__local_aars__:C:\Users\sarth\Documents\GitHub\library_ar-navigation\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"
+      jars="C:\Users\sarth\Documents\GitHub\library_ar-navigation\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar"
+      resolved="__local_aars__:C:\Users\sarth\Documents\GitHub\library_ar-navigation\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified"/>
   <library
       name=":arcore_client:@aar"
       jars="C:\Users\sarth\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\jars\classes.jar"
@@ -69,10 +69,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\Users\sarth\Downloads\library_ar-navigation-main\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary:xrmanifest.androidlib::release"
-      jars="C:\Users\sarth\Downloads\library_ar-navigation-main\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\.transforms\ca2a83a25301ae21d7d3bb202de82cba\transformed\out\jars\classes.jar"
+      name="C:\Users\sarth\Documents\GitHub\library_ar-navigation\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary:xrmanifest.androidlib::release"
+      jars="C:\Users\sarth\Documents\GitHub\library_ar-navigation\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\.transforms\0ce016b7433f06c06cbd6f866bf62c57\transformed\out\jars\classes.jar"
       resolved="Gradle.unityLibrary:xrmanifest.androidlib:unspecified"
-      folder="C:\Users\sarth\Downloads\library_ar-navigation-main\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\.transforms\ca2a83a25301ae21d7d3bb202de82cba\transformed\out"
+      folder="C:\Users\sarth\Documents\GitHub\library_ar-navigation\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\.transforms\0ce016b7433f06c06cbd6f866bf62c57\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

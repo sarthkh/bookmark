@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class TargetHandler : MonoBehaviour
 {
+
     [SerializeField]
     private NavigationController navigationController;
     [SerializeField]
@@ -15,7 +16,7 @@ public class TargetHandler : MonoBehaviour
     [SerializeField]
     private GameObject targetObjectPrefab;
     [SerializeField]
-    private Transform targetObjectsParentTransform;
+    private Transform targetObjectsParentTransforms;
 
     private List<TargetFacade> currentTargetItems = new List<TargetFacade>();
 
@@ -41,7 +42,7 @@ public class TargetHandler : MonoBehaviour
 
     private TargetFacade CreateTargetFacade(Target target)
     {
-        GameObject targetObject = Instantiate(targetObjectPrefab, targetObjectsParentTransform, false);
+        GameObject targetObject = Instantiate(targetObjectPrefab, targetObjectsParentTransforms, false);
         targetObject.SetActive(true);
         targetObject.name = $"{target.Name}";
         targetObject.transform.localPosition = target.Position;

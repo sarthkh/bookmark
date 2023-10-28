@@ -9987,7 +9987,7 @@ struct TargetHandler_t26EBF84B13B13596F2259A92408AE301B247E751  : public MonoBeh
 	TextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69* ___targetModelData;
 	TMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504* ___targetDataDropdown;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___targetObjectPrefab;
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___targetObjectsParentTransform;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___targetObjectsParentTransforms;
 	List_1_tD7576C87B68BC6CE723331751C2CE61223447FBE* ___currentTargetItems;
 };
 struct TextGenerator_t6B84DC798596D3A9944DC346DD453C075EE62366  : public RuntimeObject
@@ -14939,7 +14939,7 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7458[1] =
 	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass13_0_t83FB2AD6EC26151274AEDE3E1ED442238DACCE95, ___targetText)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7459[6] = 
 {
-	static_cast<int32_t>(offsetof(TargetHandler_t26EBF84B13B13596F2259A92408AE301B247E751, ___navigationController)),static_cast<int32_t>(offsetof(TargetHandler_t26EBF84B13B13596F2259A92408AE301B247E751, ___targetModelData)),static_cast<int32_t>(offsetof(TargetHandler_t26EBF84B13B13596F2259A92408AE301B247E751, ___targetDataDropdown)),static_cast<int32_t>(offsetof(TargetHandler_t26EBF84B13B13596F2259A92408AE301B247E751, ___targetObjectPrefab)),static_cast<int32_t>(offsetof(TargetHandler_t26EBF84B13B13596F2259A92408AE301B247E751, ___targetObjectsParentTransform)),static_cast<int32_t>(offsetof(TargetHandler_t26EBF84B13B13596F2259A92408AE301B247E751, ___currentTargetItems)),};
+	static_cast<int32_t>(offsetof(TargetHandler_t26EBF84B13B13596F2259A92408AE301B247E751, ___navigationController)),static_cast<int32_t>(offsetof(TargetHandler_t26EBF84B13B13596F2259A92408AE301B247E751, ___targetModelData)),static_cast<int32_t>(offsetof(TargetHandler_t26EBF84B13B13596F2259A92408AE301B247E751, ___targetDataDropdown)),static_cast<int32_t>(offsetof(TargetHandler_t26EBF84B13B13596F2259A92408AE301B247E751, ___targetObjectPrefab)),static_cast<int32_t>(offsetof(TargetHandler_t26EBF84B13B13596F2259A92408AE301B247E751, ___targetObjectsParentTransforms)),static_cast<int32_t>(offsetof(TargetHandler_t26EBF84B13B13596F2259A92408AE301B247E751, ___currentTargetItems)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7460[3] = 
 {
 	static_cast<int32_t>(offsetof(Target_t5E0C0864CEA07701AF639C0AFAC19928DB873FC5, ___Name)),static_cast<int32_t>(offsetof(Target_t5E0C0864CEA07701AF639C0AFAC19928DB873FC5, ___Position)),static_cast<int32_t>(offsetof(Target_t5E0C0864CEA07701AF639C0AFAC19928DB873FC5, ___Rotation)),};
