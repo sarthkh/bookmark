@@ -876,7 +876,7 @@ Payload for "WriteText C:/Users/sarth/Documents/GitHub/library_ar-navigation/Lib
 
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">Bookmark V2</string>
+  <string name="app_name">Bookmark</string>
   <string name="game_view_content_description">Game view</string>
 </resources>    
 
