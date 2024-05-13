@@ -47,6 +47,7 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.Management.XRManagerSettings
     Unity.XR.Simulation.Editor.dll:
     - UnityEditor.XR.Simulation.SimulationEnvironmentAssetsManager
+    - UnityEditor.XR.Simulation.XREnvironmentViewManager
     - UnityEditor.XR.Simulation.XRSimulationSettings
     Unity.XR.Simulation.dll:
     - UnityEngine.XR.Simulation.SimulatedBoundedPlane
