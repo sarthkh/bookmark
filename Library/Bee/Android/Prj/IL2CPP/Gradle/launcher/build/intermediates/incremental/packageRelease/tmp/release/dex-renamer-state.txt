@@ -1,4 +1,0 @@
-#Tue Mar 26 11:57:56 IST 2024
-base.0=C\:\\Users\\sarth\\Documents\\GitHub\\library_ar-navigation\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
